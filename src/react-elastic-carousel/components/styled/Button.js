@@ -20,7 +20,7 @@ export default styled.button.attrs(({ type = "button" }) => ({ type }))`
   &:hover:enabled,
   &:focus:enabled {
     color: #fff;
-    background-color: rgba(103, 58, 183, 1);
+    background-color: rgb(183, 58, 58);
     box-shadow: 0 0 2px 0 #333;
   }
   &:disabled {
